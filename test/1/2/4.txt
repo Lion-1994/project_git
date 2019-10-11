@@ -1,0 +1,484 @@
+root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
+sys:x:3:3:sys:/dev:/usr/sbin/nologin
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/usr/sbin/nologin
+man:x:6:12:man:/var/cache/man:/usr/sbin/nologin
+lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
+mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
+news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
+uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
+proxy:x:13:13:proxy:/bin:/usr/sbin/nologin
+www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
+backup:x:34:34:backup:/var/backups:/usr/sbin/nologin
+list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
+irc:x:39:39:ircd:/var/run/ircd:/usr/sbin/nologin
+gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/usr/sbin/nologin
+nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin
+systemd-timesync:x:100:102:systemd Time Synchronization,,,:/run/systemd:/bin/false
+systemd-network:x:101:103:systemd Network Management,,,:/run/systemd/netif:/bin/false
+systemd-resolve:x:102:104:systemd Resolver,,,:/run/systemd/resolve:/bin/false
+systemd-bus-proxy:x:103:105:systemd Bus Proxy,,,:/run/systemd:/bin/false
+syslog:x:104:108::/home/syslog:/bin/false
+_apt:x:105:65534::/nonexistent:/bin/false
+messagebus:x:106:110::/var/run/dbus:/bin/false
+uuidd:x:107:111::/run/uuidd:/bin/false
+lightdm:x:108:114:Light Display Manager:/var/lib/lightdm:/bin/false
+whoopsie:x:109:117::/nonexistent:/bin/false
+avahi-autoipd:x:110:119:Avahi autoip daemon,,,:/var/lib/avahi-autoipd:/bin/false
+avahi:x:111:120:Avahi mDNS daemon,,,:/var/run/avahi-daemon:/bin/false
+dnsmasq:x:112:65534:dnsmasq,,,:/var/lib/misc:/bin/false
+colord:x:113:123:colord colour management daemon,,,:/var/lib/colord:/bin/false
+speech-dispatcher:x:114:29:Speech Dispatcher,,,:/var/run/speech-dispatcher:/bin/false
+hplip:x:115:7:HPLIP system user,,,:/var/run/hplip:/bin/false
+kernoops:x:116:65534:Kernel Oops Tracking Daemon,,,:/:/bin/false
+pulse:x:117:124:PulseAudio daemon,,,:/var/run/pulse:/bin/false
+rtkit:x:118:126:RealtimeKit,,,:/proc:/bin/false
+saned:x:119:127::/var/lib/saned:/bin/false
+usbmux:x:120:46:usbmux daemon,,,:/var/lib/usbmux:/bin/false
+tom:x:1000:1000:tom,,,:/home/tom:/bin/bash
+vboxadd:x:999:1::/var/run/vboxadd:/bin/false
+sshd:x:121:65534::/var/run/sshd:/usr/sbin/nologin
+root
+daemon
+bin
+sys
+sync
+games
+man
+lp
+mail
+news
+uucp
+proxy
+www-data
+backup
+list
+irc
+gnats
+nobody
+systemd-timesync
+systemd-network
+systemd-resolve
+systemd-bus-proxy
+syslog
+_apt
+messagebus
+uuidd
+lightdm
+whoopsie
+avahi-autoipd
+avahi
+dnsmasq
+colord
+speech-dispatcher
+hplip
+kernoops
+pulse
+rtkit
+saned
+usbmux
+tom
+vboxadd
+sshd
+root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
+sys:x:3:3:sys:/dev:/usr/sbin/nologin
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/usr/sbin/nologin
+man:x:6:12:man:/var/cache/man:/usr/sbin/nologin
+lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
+mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
+news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
+uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
+proxy:x:13:13:proxy:/bin:/usr/sbin/nologin
+www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
+backup:x:34:34:backup:/var/backups:/usr/sbin/nologin
+list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
+irc:x:39:39:ircd:/var/run/ircd:/usr/sbin/nologin
+gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/usr/sbin/nologin
+nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin
+systemd-timesync:x:100:102:systemd Time Synchronization,,,:/run/systemd:/bin/false
+systemd-network:x:101:103:systemd Network Management,,,:/run/systemd/netif:/bin/false
+systemd-resolve:x:102:104:systemd Resolver,,,:/run/systemd/resolve:/bin/false
+systemd-bus-proxy:x:103:105:systemd Bus Proxy,,,:/run/systemd:/bin/false
+syslog:x:104:108::/home/syslog:/bin/false
+_apt:x:105:65534::/nonexistent:/bin/false
+messagebus:x:106:110::/var/run/dbus:/bin/false
+uuidd:x:107:111::/run/uuidd:/bin/false
+lightdm:x:108:114:Light Display Manager:/var/lib/lightdm:/bin/false
+whoopsie:x:109:117::/nonexistent:/bin/false
+avahi-autoipd:x:110:119:Avahi autoip daemon,,,:/var/lib/avahi-autoipd:/bin/false
+avahi:x:111:120:Avahi mDNS daemon,,,:/var/run/avahi-daemon:/bin/false
+dnsmasq:x:112:65534:dnsmasq,,,:/var/lib/misc:/bin/false
+colord:x:113:123:colord colour management daemon,,,:/var/lib/colord:/bin/false
+speech-dispatcher:x:114:29:Speech Dispatcher,,,:/var/run/speech-dispatcher:/bin/false
+hplip:x:115:7:HPLIP system user,,,:/var/run/hplip:/bin/false
+kernoops:x:116:65534:Kernel Oops Tracking Daemon,,,:/:/bin/false
+pulse:x:117:124:PulseAudio daemon,,,:/var/run/pulse:/bin/false
+rtkit:x:118:126:RealtimeKit,,,:/proc:/bin/false
+saned:x:119:127::/var/lib/saned:/bin/false
+usbmux:x:120:46:usbmux daemon,,,:/var/lib/usbmux:/bin/false
+tom:x:1000:1000:tom,,,:/home/tom:/bin/bash
+vboxadd:x:999:1::/var/run/vboxadd:/bin/false
+sshd:x:121:65534::/var/run/sshd:/usr/sbin/nologin
+root
+daemon
+bin
+sys
+sync
+games
+man
+lp
+mail
+news
+uucp
+proxy
+www-data
+backup
+list
+irc
+gnats
+nobody
+systemd-timesync
+systemd-network
+systemd-resolve
+systemd-bus-proxy
+syslog
+_apt
+messagebus
+uuidd
+lightdm
+whoopsie
+avahi-autoipd
+avahi
+dnsmasq
+colord
+speech-dispatcher
+hplip
+kernoops
+pulse
+rtkit
+saned
+usbmux
+tom
+vboxadd
+sshd
+root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
+sys:x:3:3:sys:/dev:/usr/sbin/nologin
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/usr/sbin/nologin
+man:x:6:12:man:/var/cache/man:/usr/sbin/nologin
+lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
+mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
+news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
+uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
+proxy:x:13:13:proxy:/bin:/usr/sbin/nologin
+www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
+backup:x:34:34:backup:/var/backups:/usr/sbin/nologin
+list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
+irc:x:39:39:ircd:/var/run/ircd:/usr/sbin/nologin
+gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/usr/sbin/nologin
+nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin
+systemd-timesync:x:100:102:systemd Time Synchronization,,,:/run/systemd:/bin/false
+systemd-network:x:101:103:systemd Network Management,,,:/run/systemd/netif:/bin/false
+systemd-resolve:x:102:104:systemd Resolver,,,:/run/systemd/resolve:/bin/false
+systemd-bus-proxy:x:103:105:systemd Bus Proxy,,,:/run/systemd:/bin/false
+syslog:x:104:108::/home/syslog:/bin/false
+_apt:x:105:65534::/nonexistent:/bin/false
+messagebus:x:106:110::/var/run/dbus:/bin/false
+uuidd:x:107:111::/run/uuidd:/bin/false
+lightdm:x:108:114:Light Display Manager:/var/lib/lightdm:/bin/false
+whoopsie:x:109:117::/nonexistent:/bin/false
+avahi-autoipd:x:110:119:Avahi autoip daemon,,,:/var/lib/avahi-autoipd:/bin/false
+avahi:x:111:120:Avahi mDNS daemon,,,:/var/run/avahi-daemon:/bin/false
+dnsmasq:x:112:65534:dnsmasq,,,:/var/lib/misc:/bin/false
+colord:x:113:123:colord colour management daemon,,,:/var/lib/colord:/bin/false
+speech-dispatcher:x:114:29:Speech Dispatcher,,,:/var/run/speech-dispatcher:/bin/false
+hplip:x:115:7:HPLIP system user,,,:/var/run/hplip:/bin/false
+kernoops:x:116:65534:Kernel Oops Tracking Daemon,,,:/:/bin/false
+pulse:x:117:124:PulseAudio daemon,,,:/var/run/pulse:/bin/false
+rtkit:x:118:126:RealtimeKit,,,:/proc:/bin/false
+saned:x:119:127::/var/lib/saned:/bin/false
+usbmux:x:120:46:usbmux daemon,,,:/var/lib/usbmux:/bin/false
+tom:x:1000:1000:tom,,,:/home/tom:/bin/bash
+vboxadd:x:999:1::/var/run/vboxadd:/bin/false
+sshd:x:121:65534::/var/run/sshd:/usr/sbin/nologin
+root
+daemon
+bin
+sys
+sync
+games
+man
+lp
+mail
+news
+uucp
+proxy
+www-data
+backup
+list
+irc
+gnats
+nobody
+systemd-timesync
+systemd-network
+systemd-resolve
+systemd-bus-proxy
+syslog
+_apt
+messagebus
+uuidd
+lightdm
+whoopsie
+avahi-autoipd
+avahi
+dnsmasq
+colord
+speech-dispatcher
+hplip
+kernoops
+pulse
+rtkit
+saned
+usbmux
+tom
+vboxadd
+sshd
+总用量 1172
+drwxr-xr-x 130 root root   12288 6月  25 21:21 ./
+drwxr-xr-x  24 root root    4096 6月  24 15:38 ../
+drwxr-xr-x   3 root root    4096 2月  27 08:02 acpi/
+-rw-r--r--   1 root root    3028 2月  27 07:57 adduser.conf
+drwxr-xr-x   2 root root    4096 6月  24 17:12 alternatives/
+-rw-r--r--   1 root root     401 12月 29  2014 anacrontab
+-rw-r--r--   1 root root     112 1月  10  2014 apg.conf
+drwxr-xr-x   6 root root    4096 2月  27 07:59 apm/
+drwxr-xr-x   3 root root    4096 2月  27 08:02 apparmor/
+drwxr-xr-x   8 root root    4096 2月  27 08:02 apparmor.d/
+drwxr-xr-x   5 root root    4096 2月  27 08:02 apport/
+-rw-r--r--   1 root root     389 4月  18  2016 appstream.conf
+drwxr-xr-x   6 root root    4096 6月  24 17:12 apt/
+drwxr-xr-x   3 root root    4096 2月  27 08:01 aptdaemon/
+drwxr-xr-x   2 root root    4096 2月  27 08:02 at-spi2/
+drwxr-xr-x   3 root root    4096 2月  27 08:02 avahi/
+-rw-r--r--   1 root root    2188 9月   1  2015 bash.bashrc
+-rw-r--r--   1 root root      45 8月  13  2015 bash_completion
+drwxr-xr-x   2 root root    4096 6月  24 15:39 bash_completion.d/
+-rw-r--r--   1 root root     367 1月  27  2016 bindresvport.blacklist
+drwxr-xr-x   2 root root    4096 4月  12  2016 binfmt.d/
+drwxr-xr-x   2 root root    4096 2月  27 08:02 bluetooth/
+-rw-r--r--   1 root root      33 2月  27 08:02 brlapi.key
+drwxr-xr-x   7 root root    4096 2月  27 08:01 brltty/
+-rw-r--r--   1 root root   23444 4月  28  2016 brltty.conf
+drwxr-xr-x   3 root root    4096 2月  27 07:59 ca-certificates/
+-rw-r--r--   1 root root    6488 2月  27 08:02 ca-certificates.conf
+drwxr-xr-x   2 root root    4096 2月  27 08:01 calendar/
+drwxr-s---   2 root dip     4096 2月  27 08:02 chatscripts/
+drwxr-xr-x   2 root root    4096 2月  27 08:02 compizconfig/
+drwxr-xr-x   2 root root    4096 2月  27 07:58 console-setup/
+drwxr-xr-x   2 root root    4096 2月  27 08:02 cracklib/
+drwxr-xr-x   2 root root    4096 2月  27 08:02 cron.d/
+drwxr-xr-x   2 root root    4096 6月  24 17:16 cron.daily/
+drwxr-xr-x   2 root root    4096 2月  27 07:57 cron.hourly/
+drwxr-xr-x   2 root root    4096 2月  27 08:02 cron.monthly/
+-rw-r--r--   1 root root     722 4月   6  2016 crontab
+drwxr-xr-x   2 root root    4096 2月  27 08:02 cron.weekly/
+drwxr-xr-x   5 root lp      4096 6月  25 21:22 cups/
+drwxr-xr-x   2 root root    4096 2月  27 08:02 cupshelpers/
+drwxr-xr-x   4 root root    4096 2月  27 07:58 dbus-1/
+drwxr-xr-x   4 root root    4096 2月  27 08:00 dconf/
+-rw-r--r--   1 root root    2969 11月 11  2015 debconf.conf
+-rw-r--r--   1 root root      12 4月  30  2015 debian_version
+drwxr-xr-x   2 root root    4096 6月  24 17:12 default/
+-rw-r--r--   1 root root     604 7月   3  2015 deluser.conf
+drwxr-xr-x   2 root root    4096 6月  24 15:44 depmod.d/
+drwxr-xr-x   4 root root    4096 2月  27 07:58 dhcp/
+drwxr-xr-x   2 root root    4096 6月  24 15:40 dictionaries-common/
+drwxr-xr-x   2 root root    4096 2月  27 08:02 dnsmasq.d/
+drwxr-xr-x   3 root root    4096 2月  27 07:59 doc-base/
+drwxr-xr-x   4 root root    4096 2月  27 08:02 dpkg/
+-rw-r--r--   1 root root   12636 6月  15  2018 drirc
+drwxr-xr-x   3 root root    4096 2月  27 08:02 emacs/
+-rw-r--r--   1 root root      96 2月  27 07:57 environment
+drwxr-xr-x   3 root root    4096 2月  27 08:02 firefox/
+drwxr-xr-x   4 root root    4096 2月  27 08:01 fonts/
+-rw-rw-r--   1 root root     594 6月  24 15:28 fstab
+-rw-r--r--   1 root root     280 6月  20  2014 fuse.conf
+-rw-r--r--   1 root root     431 8月  17  2018 fwupd.conf
+-rw-r--r--   1 root root    2584 2月  19  2016 gai.conf
+drwxr-xr-x   5 root root    4096 2月  27 07:59 gconf/
+drwxr-xr-x   2 root root    4096 2月  27 08:02 gdb/
+drwxr-xr-x   4 root root    4096 2月  27 07:59 ghostscript/
+drwxr-xr-x   2 root root    4096 2月  27 08:02 gnome/
+drwxr-xr-x   2 root root    4096 2月  27 08:02 gnome-app-install/
+drwxr-xr-x   2 root root    4096 2月  27 08:01 groff/
+-rw-r--r--   1 root root     981 6月  24 15:44 group
+-rw-------   1 root root     967 6月  24 15:34 group-
+drwxr-xr-x   2 root root    4096 2月  27 08:02 grub.d/
+-rw-r-----   1 root shadow   818 6月  24 15:44 gshadow
+-rw-------   1 root root     807 6月  24 15:34 gshadow-
+drwxr-xr-x   3 root root    4096 2月  27 07:58 gss/
+drwxr-xr-x   2 root root    4096 2月  27 08:02 gtk-2.0/
+drwxr-xr-x   2 root root    4096 2月  27 08:02 gtk-3.0/
+drwxr-xr-x   2 root root    4096 4月   1  2017 guest-session/
+-rw-r--r--   1 root root    4781 3月  17  2016 hdparm.conf
+-rw-r--r--   1 root root      92 10月 23  2015 host.conf
+-rw-r--r--   1 root root      15 6月  24 15:31 hostname
+-rw-r--r--   1 root root     229 6月  24 15:31 hosts
+-rw-r--r--   1 root root     411 2月  27 08:02 hosts.allow
+-rw-r--r--   1 root root     711 2月  27 08:02 hosts.deny
+drwxr-xr-x   2 root root    4096 2月  27 08:02 hp/
+drwxr-xr-x   3 root root    4096 2月  27 07:59 ifplugd/
+-rw-rw-r--   1 root root     123 6月  24 15:31 iftab
+drwxr-xr-x   2 root root    4096 2月  27 08:02 ImageMagick-6/
+drwxr-xr-x   2 root root    4096 6月  24 15:56 init/
+drwxr-xr-x   2 root root    4096 6月  24 15:56 init.d/
+drwxr-xr-x   5 root root    4096 2月  27 07:58 initramfs-tools/
+-rw-r--r--   1 root root    1748 2月   5  2016 inputrc
+drwxr-xr-x   3 root root    4096 3月   6  2015 insserv/
+-rw-r--r--   1 root root     771 3月   6  2015 insserv.conf
+drwxr-xr-x   2 root root    4096 3月   6  2015 insserv.conf.d/
+drwxr-xr-x   2 root root    4096 2月  27 07:58 iproute2/
+-rw-r--r--   1 root root      26 2月  20 17:40 issue
+-rw-r--r--   1 root root      19 2月  20 17:40 issue.net
+drwxr-xr-x   2 root root    4096 2月  27 07:58 kbd/
+drwxr-xr-x   6 root root    4096 6月  24 15:44 kernel/
+-rw-r--r--   1 root root     110 6月  24 15:38 kernel-img.conf
+-rw-r--r--   1 root root    1308 3月  11  2016 kerneloops.conf
+drwxr-xr-x   2 root root    4096 2月  27 08:02 ldap/
+-rw-r--r--   1 root root   89229 6月  25 21:21 ld.so.cache
+-rw-r--r--   1 root root      34 1月  27  2016 ld.so.conf
+drwxr-xr-x   2 root root    4096 2月  27 08:02 ld.so.conf.d/
+-rw-r--r--   1 root root     267 10月 23  2015 legal
+-rw-r--r--   1 root root      27 1月   8  2015 libao.conf
+-rw-r--r--   1 root root     191 1月  19  2016 libaudit.conf
+drwxr-xr-x   2 root root    4096 2月  27 08:02 libnl-3/
+drwxr-xr-x   2 root root    4096 11月  4  2015 libpaper.d/
+drwxr-xr-x   2 root root    4096 2月  27 08:02 libreoffice/
+drwxr-xr-x   3 root root    4096 2月  27 08:02 lightdm/
+-rw-r--r--   1 root root    1151 6月   6  2017 lintianrc
+-rw-r--r--   1 root root    2995 4月  15  2016 locale.alias
+-rw-r--r--   1 root root    9149 6月  24 15:31 locale.gen
+-rw-r--r--   1 root root     554 6月  24 15:34 localtime
+drwxr-xr-x   4 root root    4096 2月  27 07:59 logcheck/
+-rw-r--r--   1 root root   10551 3月  29  2016 login.defs
+-rw-r--r--   1 root root     703 5月   6  2015 logrotate.conf
+drwxr-xr-x   2 root root    4096 2月  27 08:02 logrotate.d/
+-rw-r--r--   1 root root     105 2月  20 17:40 lsb-release
+-rw-r--r--   1 root root   14867 4月  12  2016 ltrace.conf
+-r--r--r--   1 root root      33 6月  24 15:41 machine-id
+-rw-r--r--   1 root root     111 11月 20  2015 magic
+-rw-r--r--   1 root root     111 11月 20  2015 magic.mime
+-rw-r--r--   1 root root   49920 6月  24 17:16 mailcap
+-rw-r--r--   1 root root     449 10月 30  2015 mailcap.order
+-rw-r--r--   1 root root    5170 11月  7  2015 manpath.config
+-rw-r--r--   1 root root   24241 10月 30  2015 mime.types
+-rw-r--r--   1 root root     967 10月 30  2015 mke2fs.conf
+drwxr-xr-x   2 root root    4096 2月  27 08:02 modprobe.d/
+-rw-r--r--   1 root root     195 2月  27 07:57 modules
+drwxr-xr-x   2 root root    4096 2月  27 08:02 modules-load.d/
+lrwxrwxrwx   1 root root      19 6月  24 15:38 mtab -> ../proc/self/mounts
+-rw-r--r--   1 root root     624 8月   8  2007 mtools.conf
+-rw-r--r--   1 root root    8338 2月  15  2017 nanorc
+drwxr-xr-x   7 root root    4096 2月  27 07:57 network/
+drwxr-xr-x   8 root root    4096 2月  27 08:02 NetworkManager/
+-rw-r--r--   1 root root      91 10月 23  2015 networks
+drwxr-xr-x   2 root root    4096 2月  27 07:57 newt/
+-rw-r--r--   1 root root     529 2月  27 08:02 nsswitch.conf
+drwxr-xr-x   2 root root    4096 2月  27 07:57 opt/
+lrwxrwxrwx   1 root root      21 6月  24 15:28 os-release -> ../usr/lib/os-release
+-rw-r--r--   1 root root     552 3月  17  2016 pam.conf
+drwxr-xr-x   2 root root    4096 6月  24 15:56 pam.d/
+-rw-rw-r--   1 root root       3 6月  24 15:38 papersize
+-rw-r--r--   1 root root    2329 6月  24 15:56 passwd
+-rw-------   1 root root    2329 6月  24 15:56 passwd-
+drwxr-xr-x   2 root root    4096 2月  27 08:02 pcmcia/
+drwxr-xr-x   4 root root    4096 2月  27 07:59 perl/
+drwxr-xr-x   4 root root    4096 2月  27 08:00 pki/
+drwxr-xr-x   5 root root    4096 2月  27 08:00 pm/
+-rw-r--r--   1 root root    7649 2月  27 08:02 pnm2ppa.conf
+drwxr-xr-x   5 root root    4096 2月  27 07:59 polkit-1/
+-rw-rw-r--   1 root root     350 6月  24 15:38 popularity-contest.conf
+drwxr-xr-x   8 root root    4096 2月  27 08:02 ppp/
+-rw-r--r--   1 root root    5877 2月   7  2016 presage.xml
+-rw-r--r--   1 root root     575 10月 23  2015 profile
+drwxr-xr-x   2 root root    4096 2月  27 08:02 profile.d/
+-rw-r--r--   1 root root    2932 10月 25  2014 protocols
+drwxr-xr-x   2 root root    4096 2月  27 08:02 pulse/
+-rw-------   1 root root       0 2月  27 07:57 .pwd.lock
+drwxr-xr-x   2 root root    4096 2月  27 08:01 python/
+drwxr-xr-x   2 root root    4096 2月  27 07:58 python2.7/
+drwxr-xr-x   2 root root    4096 2月  27 07:57 python3/
+drwxr-xr-x   2 root root    4096 2月  27 07:58 python3.5/
+drwxr-xr-x   2 root root    4096 6月  24 15:39 rc0.d/
+drwxr-xr-x   2 root root    4096 6月  24 15:39 rc1.d/
+drwxr-xr-x   2 root root    4096 6月  24 15:56 rc2.d/
+drwxr-xr-x   2 root root    4096 6月  24 15:56 rc3.d/
+drwxr-xr-x   2 root root    4096 6月  24 15:56 rc4.d/
+drwxr-xr-x   2 root root    4096 6月  24 15:56 rc5.d/
+drwxr-xr-x   2 root root    4096 6月  24 15:39 rc6.d/
+-rwxr-xr-x   1 root root     306 2月  27 07:57 rc.local*
+drwxr-xr-x   2 root root    4096 6月  24 15:39 rcS.d/
+drwxr-xr-x   5 root root    4096 2月  27 07:59 resolvconf/
+lrwxrwxrwx   1 root root      29 6月  24 15:31 resolv.conf -> ../run/resolvconf/resolv.conf
+-rwxr-xr-x   1 root root     268 11月 11  2015 rmt*
+-rw-r--r--   1 root root     887 10月 25  2014 rpc
+-rw-r--r--   1 root root    1371 1月  28  2016 rsyslog.conf
+drwxr-xr-x   2 root root    4096 2月  27 08:02 rsyslog.d/
+drwxr-xr-x   3 root root    4096 2月  27 08:02 sane.d/
+-rw-r--r--   1 root root    4038 3月  29  2016 securetty
+drwxr-xr-x   4 root root    4096 2月  27 08:02 security/
+drwxr-xr-x   2 root root    4096 2月  27 07:57 selinux/
+-rw-r--r--   1 root root   10368 10月  2  2015 sensors3.conf
+drwxr-xr-x   2 root root    4096 2月  27 08:02 sensors.d/
+-rw-r--r--   1 root root   19605 10月 25  2014 services
+drwxr-xr-x   2 root root    4096 2月  27 08:02 sgml/
+-rw-r-----   1 root shadow  1292 6月  24 15:56 shadow
+-rw-------   1 root root    1292 6月  24 15:56 shadow-
+-rw-r--r--   1 root root      73 2月  27 07:57 shells
+-rw-r--r--   1 root root    1803 11月  6  2015 signond.conf
+drwxr-xr-x   3 root root    4096 2月  27 07:59 signon-ui/
+drwxr-xr-x   2 root root    4096 2月  27 08:02 skel/
+drwxr-xr-x   4 root root    4096 2月  27 08:02 speech-dispatcher/
+drwxr-xr-x   2 root root    4096 6月  24 15:56 ssh/
+drwxr-xr-x   4 root root    4096 2月  27 08:01 ssl/
+-rw-r--r--   1 root root      17 6月  24 15:34 subgid
+-rw-------   1 root root       0 2月  27 07:57 subgid-
+-rw-r--r--   1 root root      17 6月  24 15:34 subuid
+-rw-------   1 root root       0 2月  27 07:57 subuid-
+-r--r-----   1 root root     755 7月   4  2017 sudoers
+drwxr-xr-x   2 root root    4096 2月  27 07:58 sudoers.d/
+-rw-r--r--   1 root root    2084 9月   6  2015 sysctl.conf
+drwxr-xr-x   2 root root    4096 2月  27 07:58 sysctl.d/
+drwxr-xr-x   5 root root    4096 2月  27 07:58 systemd/
+drwxr-xr-x   2 root root    4096 2月  27 07:57 terminfo/
+drwxr-xr-x   2 root root    4096 2月  27 08:02 thermald/
+drwxr-xr-x   2 root root    4096 6月  24 15:38 thunderbird/
+-rw-r--r--   1 root root      14 6月  24 15:34 timezone
+drwxr-xr-x   2 root root    4096 4月  12  2016 tmpfiles.d/
+-rw-r--r--   1 root root    1260 3月  17  2016 ucf.conf
+drwxr-xr-x   4 root root    4096 2月  27 07:58 udev/
+drwxr-xr-x   2 root root    4096 4月   2  2016 udisks2/
+drwxr-xr-x   3 root root    4096 2月  27 08:02 ufw/
+-rw-r--r--   1 root root     338 11月 18  2014 updatedb.conf
+drwxr-xr-x   3 root root    4096 2月  27 08:02 update-manager/
+drwxr-xr-x   2 root root    4096 2月  27 08:02 update-motd.d/
+drwxr-xr-x   2 root root    4096 12月  7  2018 update-notifier/
+drwxr-xr-x   2 root root    4096 2月  27 08:02 UPower/
+-rw-r--r--   1 root root     270 5月  19  2016 upstart-xsessions
+-rw-r--r--   1 root root    1018 10月  5  2015 usb_modeswitch.conf
+drwxr-xr-x   2 root root    4096 11月  2  2015 usb_modeswitch.d/
+drwxr-xr-x   2 root root    4096 2月  27 07:58 vim/
+lrwxrwxrwx   1 root root      23 6月  24 15:28 vtrgb -> /etc/alternatives/vtrgb
+-rw-r--r--   1 root root    4942 5月   9  2018 wgetrc
+drwxr-xr-x   2 root root    4096 2月  27 08:02 wpa_supplicant/
+drwxr-xr-x  11 root root    4096 2月  27 08:02 X11/
+drwxr-xr-x   5 root root    4096 2月  27 08:02 xdg/
+drwxr-xr-x   2 root root    4096 2月  27 08:02 xml/
+-rw-r--r--   1 root root     477 7月  20  2015 zsh_command_not_found
